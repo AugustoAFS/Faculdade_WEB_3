@@ -1,0 +1,10 @@
+section {
+    margin: 20px 0;
+    color: black;
+}
+
+.img_java {
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+}
