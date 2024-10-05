@@ -1,10 +1,24 @@
-section {
-    margin: 20px 0;
-    color: black;
+.img_java {
+    display: block;
+    margin: 5px auto;
+    max-width: 50%;
+    height: auto;
 }
 
-.img_java {
-    width: 30%;
-    height: auto;
-    border-radius: 10%;
+section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+section ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+section ul li a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
