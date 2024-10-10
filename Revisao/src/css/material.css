@@ -15,3 +15,26 @@ section ul li a img {
     height: 50px;
     object-fit: cover;
 }
+
+section h1{
+    color: black;
+}
+
+section button{
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+section button :hover{
+    color: blue;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}

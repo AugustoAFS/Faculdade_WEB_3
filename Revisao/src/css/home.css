@@ -1,8 +1,26 @@
-.img_java {
-    display: block;
-    margin: 5px auto;
-    max-width: 50%;
+.IMG_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: auto;
+}
+
+.IMG_home .IMG_tec {
+    padding: auto;
+    max-width: 20%;
     height: auto;
+    text-align: center;
+
+}
+
+section h1 {
+    color: black;
+}
+
+section p{
+    color: black;
+    white-space: auto;
 }
 
 section ul {
