@@ -1,0 +1,118 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.IMG_cli {
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.adot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.button-custom {
+    background-color: #202020;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-custom a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-custom:hover {
+    background-color: #ffe72d;
+}
+
+
+.IMG_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+
+.IMG_home .card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.IMG_home .IMG_tec {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.IMG_home .IMG_tec:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+    .IMG_home .card {
+        width: 45%;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .IMG_home .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section h1 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .IMG_home .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section h1 {
+        font-size: 1.2rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    section ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+}
